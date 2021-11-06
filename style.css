@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+[data-role='message'] {
+  font-size: 40px;
+  line-height: 1;
+  min-height: 40px;
+  margin-bottom: 20px;
+}
+[data-role='area'] {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+[data-role='cell'] {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  background: rgb(224, 217, 217);
+  border: 1px solid rgb(32, 32, 32);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
